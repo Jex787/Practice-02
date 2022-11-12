@@ -26,18 +26,31 @@
         justify-content: center;
         row-gap: 14px;
         margin-top: 0px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 30px;
+        margin-right: 31px;
+        width: auto;
+        height: auto;
+    }
+
+    .top-image {
+        display: none;
     }
 
     .top-blog-image {
-        margin-left: 51px;
-        margin-right: 52px;
+        margin: auto;
+        width: 257px;
+        height: 257px;
+        padding: 0;
+        background-image: url(/images/image/Circle_design_camera_257x257.jpg);
     }
 
     .top-blog-info {
         text-align: center;
         font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
     }
 
     .top-blog-info h1 {
@@ -59,10 +72,11 @@
 
     /* ----------------------------Branding-------------------------- */
     .brande {
-        margin: 50.5px 42px 50.04px 42px;
+        /* margin: 50.5px 42px 50.04px 42px;
         width: auto;
         height: auto;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
+        display: none;
     }
 
     /* ----------------------------Item Shop Section-------------------------- */
@@ -90,7 +104,7 @@
     .item-shop a {
         position: relative;
         left: 80%;
-        top: 10px;
+        top: 32px;
     }
 
     /* <!------------------------ Last Blog Section ----------------------------> */
@@ -110,6 +124,16 @@
 
     .last-blog-info h1 {
         font-size: 24px;
+    }
+
+    .last-blog-image {
+        width: 299px;
+        height: 188px;
+    }
+
+    .last-image {
+        width: 299px;
+        height: 188px;
     }
 
     /* <!------------------------ Footer Section  ----------------------------> */
