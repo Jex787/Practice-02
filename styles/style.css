@@ -9,7 +9,7 @@ body {
 }
 
 /*------------------------- Header Section ------------- */
-header {
+.large-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,15 +17,19 @@ header {
     margin-right: 120px;
 }
 
-header h2 {
+.small-header {
+    display: none;
+}
+
+.large-header-title {
     font-size: 24px;
 }
 
-nav ul {
+.large-header nav ul {
     display: flex;
 }
 
-nav li {
+.large-header nav li {
     list-style: none;
     margin-left: 34px;
     font-size: 16px;
@@ -116,8 +120,8 @@ nav li {
     text-decoration: none;
     color: rgba(224, 44, 109, 0.87);
     position: relative;
-    bottom: -83px;
-    right: -956px;
+    left: 91%;
+    top: 50px;
 }
 
 .item-list {

@@ -1,0 +1,121 @@
+/* -----------------------------------Mobile Device----------------------------------- */
+@media only screen and (max-width:688px) {
+
+    /*--------------------------- Header Section-------------------------------- */
+    .large-header {
+        display: none;
+    }
+
+    .small-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 34.2345px;
+        /* width: auto; */
+    }
+
+    .small-header-title {
+        font-size: 16px;
+    }
+
+    /*--------------------------- Top Blog Section------------------------------------ */
+    .top-blog {
+        flex-direction: column-reverse;
+        justify-content: center;
+        row-gap: 14px;
+        margin-top: 0px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .top-blog-image {
+        margin-left: 51px;
+        margin-right: 52px;
+    }
+
+    .top-blog-info {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .top-blog-info h1 {
+        font-size: 28px;
+    }
+
+    .top-blog-info p {
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 18px;
+        padding-right: 21px;
+        max-width: 360px;
+    }
+
+    .top-blog-info a {
+        font-size: 16px;
+    }
+
+    /* ----------------------------Branding-------------------------- */
+    .brande {
+        margin: 50.5px 42px 50.04px 42px;
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    /* ----------------------------Item Shop Section-------------------------- */
+    .item-shop {
+        width: 300px;
+        height: 4504px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item-shop-title {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .item-list {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 15px;
+        grid-column-gap: 0px;
+        justify-items: center;
+    }
+
+    .item-shop a {
+        position: relative;
+        left: 80%;
+        top: 10px;
+    }
+
+    /* <!------------------------ Last Blog Section ----------------------------> */
+
+    .last-blog {
+        width: auto;
+        height: auto;
+        margin: 50px 31px 50px 30px;
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+
+    .last-blog-info {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .last-blog-info h1 {
+        font-size: 24px;
+    }
+
+    /* <!------------------------ Footer Section  ----------------------------> */
+    footer {
+        padding: 50px 68px;
+        width: auto;
+        height: auto;
+    }
+}
