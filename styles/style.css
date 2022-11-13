@@ -201,12 +201,11 @@ body {
 footer {
     background-color: black;
     margin: 0;
-    padding: 50px 589px;
+    padding: 50px 0px;
 }
 
 .footer-info {
-    width: 262px;
-    height: 139px;
+    width: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
