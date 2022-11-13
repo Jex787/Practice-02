@@ -13,7 +13,7 @@
         margin-left: 16px;
         margin-right: 16px;
         margin-top: 34.2345px;
-        /* width: auto; */
+        width: auto;
     }
 
     .small-header-title {
@@ -33,7 +33,8 @@
     }
 
     .top-image {
-        display: none;
+        width: 257px;
+        height: 257px;
     }
 
     .top-blog-image {
@@ -41,7 +42,7 @@
         width: 257px;
         height: 257px;
         padding: 0;
-        background-image: url(/images/image/new-camera.jpg);
+        background-size: 257px 257px;
     }
 
     .top-blog-info {
