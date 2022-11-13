@@ -73,11 +73,14 @@ body {
 }
 
 .top-blog-image {
-    background-image: url(/images/image/Circle-design.jpg);
-    background-repeat: no-repeat;
+
     width: 475px;
     height: 414px;
     padding: 30px 33px 31px 2px;
+    background-image: url(/images/image/Circle-design.jpg);
+    background-repeat: no-repeat;
+    background-size: 475px 475px;
+
 }
 
 .top-image {
